@@ -1,0 +1,11 @@
+# exclude python bytecode cache folders to keep the image clean
+__pycache__/
+
+# exclude the git history
+.git
+
+# exclude macOS-specific system metadata files
+.DS_Store
+
+# exclude individual compiled python files
+*.pyc
