@@ -52,4 +52,24 @@ Here is a pre-start checklist:
 
 ## Implementation
 
-** ADD YOUR IMPLEMENTATION DOCUMENTATION HERE **
+# Simple Python Container
+
+A minimalist Python application designed to demonstrate Docker best practices, including non-root user execution and Alpine-based images.
+
+## 🚀 Getting Started
+
+### Prerequisites
+- [Docker](https://docs.docker.com/get-docker/)
+- [Git](https://git-scm.com/)
+
+### Running with Docker
+1. Clone the repository:
+   ```bash
+   git clone <repo-url>
+   cd <repo-folder>
+2. Build the image using Buildx:
+   ```bash
+   docker buildx build -t hivebox .
+3. Run the container:
+   ```bash
+   docker run --rm hivebox
